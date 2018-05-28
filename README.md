@@ -31,7 +31,11 @@ The following status codes are supported:
   In your app.js file:
 
 ```javascript
+//Using from NPM
 const expresserr = require('@boccinfusot/expresserr');
+
+//Using raw files
+const expresserr = require('path/to/expresserr.js');
 
 // In your Route handling section 
 app.use(function (req, res, next) {
