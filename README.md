@@ -1,6 +1,6 @@
 # What is ExpressErr?
 
-ExpressErr is a plugin for the Express framework that handles some of the most common error codes. 
+ExpressErr is an error code handler built for the Express framework.
 
 
 ## What can I do with ExpressErr?
