@@ -31,14 +31,15 @@ The following status codes are supported:
   In your app.js file:
 
 ```javascript
-//Using from NPM
-const expresserr = require('@boccinfusot/expresserr');
+// Using from NPM
+// npm i routeerrorhandler
+const errHandler = require('routeerrorhandler');
 
 //Using raw files
-const expresserr = require('path/to/expresserr.js');
+const errHandler = require('path/to/expresserr.js');
 
 // In your Route handling section 
 app.use(function (req, res, next) {
-  expresserr.err404();
+  errHandler.err404();
 });
 ```
